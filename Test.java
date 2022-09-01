@@ -4,7 +4,7 @@ import java.security.KeyStore.Entry;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
+import java.util.Iterator;
 
 public class Test {
 	
@@ -39,5 +39,7 @@ System.out.println("Value = " + value);
 public static void main(String[] args) {
 	Test myClassList = new Test();
 	myClassList.printClassList2();
+	Test myList2 = new Test();
+	myList2.printClassList();
 }
 }
